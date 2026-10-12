@@ -1,18 +1,18 @@
 #Examination Schedule System Using Singly Linked List in C
 
-📌 Project Overview
+ Project Overview
 
 The Examination Schedule System is a simple C programming project that manages examination schedules using a Singly Linked List. It allows users to add, display, and manage exam details dynamically.
 
-📝 Introduction
+ Introduction
 
 The Examination Schedule System is designed to help users organize and manage examination details efficiently. It uses a singly linked list to store subject names, examination dates, and examination times. Since linked lists allow dynamic memory allocation, the system can manage a flexible number of examination records without requiring a fixed-size array.
 
-❗ Problem Statement
+ Problem Statement
 
 Managing examination schedules manually can be difficult and may lead to confusion, missing information, or incorrect records. A computerized system is needed to store and display examination details in an organized manner. This project solves the problem by providing a simple menu-driven application that uses a singly linked list to manage examination schedules dynamically.
 
-🎯 Objectives
+ Objectives
 
 To create an examination schedule management system.
 
@@ -22,7 +22,7 @@ To store exam details dynamically.
 
 To perform insertion and display operations.
 
-🛠️ Technologies Used
+ Technologies Used
 
 Programming Language: C
 
@@ -30,7 +30,7 @@ Data Structure: Singly Linked List
 
 Platform: GCC Compiler / VS Code
 
-⚙️ Working of the Project
+ Working of the Project
 
 The project uses nodes to store examination details. Each node contains the subject name, examination date, examination time, and a pointer to the next node.
 
@@ -38,7 +38,7 @@ When a user adds an examination record, memory is allocated dynamically for a ne
 
 The system continues to operate until the user selects the exit option.
 
-🔄 Stages Included
+Stages Included
 
 Start the program
 
@@ -56,7 +56,7 @@ Traverse the linked list
 
 Exit the program and release memory
 
-⚙️ Features
+ Features
 
 Add examination details.
 
@@ -66,7 +66,7 @@ Store subject name, exam date, and exam time.
 
 Manage records dynamically using linked lists.
 
-📱 Applications
+Applications
 
 Managing school examination schedules.
 
@@ -78,14 +78,14 @@ Demonstrating linked-list implementation in academic projects.
 
 Practicing dynamic memory allocation and pointer operations in C.
 
-📂 Project Structure
+ Project Structure
 
 examination-schedule-system/
 │
 ├── examination_schedule.c
 └── README.md
 
-🚀 How to Run the Project
+ How to Run the Project
 
 Clone the repository:
 
@@ -108,8 +108,7 @@ exam_schedule.exe
 Linux/macOS:
 
 ./exam_schedule
-
-📖 Data Structure Used
+Data Structure Used
 
 A Singly Linked List consists of nodes, where each node contains:
 
@@ -121,7 +120,7 @@ A pointer to the next node
 
 Each node points to the next node, and the last node points to NULL.
 
-💡 Advantages
+ Advantages
 
 Dynamic memory allocation.
 
@@ -129,10 +128,6 @@ Efficient insertion of examination records.
 
 Flexible management of schedule data.
 
-🏁 Conclusion
+ Conclusion
 
 The Examination Schedule System demonstrates the practical use of a singly linked list in C programming. It provides a simple way to store and display examination schedules while improving understanding of dynamic memory allocation and linked-list operations.
-
-👩‍💻 Author
-
-Shruti Puri
